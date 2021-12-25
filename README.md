@@ -6,8 +6,6 @@
 * 使用技術： HTML,CSS,JS,PHP
 * プロダクト紹介映像: https://youtu.be/9XpErusLM_g
 
-テスト  テスト
-
 ### 概要
 現在運営しているECサイトの実業務で行っている月毎の棚卸し額の算出を自動化するツールを作成してみました。
 stock-cal/form.php にて、[stocklist.csv](https://github.com/worldwideweb13/stock-cal/blob/dc36a207a2008637d36f4a2bee9fa2dfbef1920e/stocklist.csv)の形式でcsvファイルをアップロードすると、CSVファイル内から商品の仕入値を抜き出し、累計棚卸額を算出します。
