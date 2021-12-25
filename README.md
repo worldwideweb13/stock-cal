@@ -9,10 +9,13 @@
 
 ### 概要
 現在運営しているECサイトの実業務で行っている月毎の棚卸し額の算出を自動化するツールを作成してみました。
+stock-cal/form.php にて、[stocklist.csv](https://github.com/worldwideweb13/stock-cal/blob/dc36a207a2008637d36f4a2bee9fa2dfbef1920e/stocklist.csv)の形式でcsvファイルをアップロードすると、CSVファイル内から商品の仕入値を抜き出し、累計棚卸額を算出します。
 本プロダクトの着地として、自社の在庫管理をトータルで行えるツールに仕上げたいと考えております。 （リポジトリは別に用意予定）
 
 ### 実行環境
-PHP 7.4.2
+* PHP 7.4.2
+* MAMP推奨
+* 利用するCSVファイル形式は[stocklist.csv](https://github.com/worldwideweb13/stock-cal/blob/dc36a207a2008637d36f4a2bee9fa2dfbef1920e/stocklist.csv)を参照して下さい。
 
 ### 開発の苦労した点
 本リポジトリでは、最初のステップとして以下の2点の実装を行いました。
