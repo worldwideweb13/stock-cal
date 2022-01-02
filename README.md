@@ -12,6 +12,9 @@ stock-cal/form.php にて、[stocklist.csv](https://github.com/worldwideweb13/st
 本プロダクトの着地として、自社の在庫管理をトータルで行えるツールに仕上げたいと考えております。 （リポジトリは別に用意予定）
 * 2021年12月追記  本アプリの完成形としてBi-Scouterのソースを公開しました。  https://github.com/worldwideweb13/Bi-Scouter.git
 
+### 動作手順
+[form.php](form.php)
+
 ### 実行環境
 * PHP 7.4.2
 * MAMP推奨
